@@ -18,3 +18,4 @@ class Shoe
   end
   Shoe.brand = "Nike"
 end
+end
