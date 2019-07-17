@@ -1,6 +1,6 @@
 class Shoe
-  attr_accessor :color, :size, :material,   # remove the attr_accessor for genre
-  attr_reader :brand, :condition  # add an attr_reader for genre
+  attr_accessor :color, :size, :material
+  attr_reader :brand, :condition
 
   BRANDS = []
 
@@ -12,9 +12,8 @@ class Shoe
     puts "The shoe has been repaired!"
   end
 
-  # create the writer for genre and add the logic for the class constant
   def brand=(brand)
     @brand = brand
     BRANDS << brand
   end
-end# Make your shoe class here!
+end
