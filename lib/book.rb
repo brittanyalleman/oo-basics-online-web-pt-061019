@@ -32,3 +32,4 @@ class Book
   end
   Shoe.brand = "Nike"
 end
+end
