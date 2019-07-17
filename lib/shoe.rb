@@ -14,9 +14,10 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
-  end
-  condition = "new" 
 
+
+    condition = "new"
+end 
   def brand=(brand)
     @brand = brand
     BRANDS << brand
