@@ -8,7 +8,7 @@ class Shoe
 
   def initialize(brand)
 
-    self.brand= (brand)
+    self.brand = brand
 
   end
 
