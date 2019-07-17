@@ -13,8 +13,8 @@ class Shoe
   end
 
   # create the writer for genre and add the logic for the class constant
-  def genre=(genre)
-    @genre = genre
-    GENRES << genre
+  def condition=(condition)
+    @condition = condition
+    CONDITION << condition
   end
 end# Make your shoe class here!
