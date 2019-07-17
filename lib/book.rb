@@ -30,4 +30,5 @@ class Book
     @genre = genre
     GENRES << genre
   end
+  Shoe.brand
 end
