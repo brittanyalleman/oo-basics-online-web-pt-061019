@@ -1,6 +1,6 @@
 class Shoe
-  attr_accessor :color, :size, :material, :condition  # remove the attr_accessor for genre
-  attr_reader :title, :genre  # add an attr_reader for genre
+  attr_accessor :color, :size, :material,   # remove the attr_accessor for genre
+  attr_reader :brand, :condition  # add an attr_reader for genre
 
   GENRES = []
 
