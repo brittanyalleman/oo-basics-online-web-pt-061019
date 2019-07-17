@@ -2,7 +2,7 @@ class Shoe
   attr_accessor :color, :size, :material
   attr_reader :brand, :condition
 
-  BRANDS = [Nike]
+  BRANDS = []
 
   def initialize(condition)
     @condition = condition
