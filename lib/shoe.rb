@@ -9,7 +9,7 @@ class Shoe
   end
 
   def cobble
-    puts "The shoe has been repaired!"
+    puts "Your shoe is good as new!"
   end
 
   def brand=(brand)
