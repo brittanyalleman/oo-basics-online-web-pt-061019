@@ -16,4 +16,5 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
+  Shoe.brand = "Nike"
 end
