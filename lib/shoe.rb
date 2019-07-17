@@ -17,7 +17,7 @@ class Shoe
 
 
     @condition = "new"
-end 
+end
   def brand=(brand)
     @brand = brand
     BRANDS << brand
