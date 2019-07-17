@@ -17,5 +17,6 @@ class Shoe
     BRANDS << brand
   end
   Shoe.brand = "Nike"
+end
 
 end
