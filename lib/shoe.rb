@@ -6,7 +6,7 @@ class Shoe
   BRANDS = []
 
 
-  def initialize(condition)
+  def initialize(brand)
     @condition = condition
     brand= (brand)
   end
